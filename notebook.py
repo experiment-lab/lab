@@ -339,7 +339,7 @@ file.add_command(label = 'Exit' , accelerator = 'Alt+F4',command = Exit)
 #####  cascade edit drop list
 
 #edit.add_command(label = 'Undo' , accelerator = 'Ctrl+Z',  command = lambda:text_editor.event_generate("<Control-z>"))
-#edit.add_command(label = 'Redo' , accelerator = 'Ctrl+D', command = lambda:text_editor.event_generate("<Control-Shift-z>"))
+#edit.add_command(label = 'Redo' , accelerator = 'Ctrl+D', command = lambda:text_editor.event_generate("<Control-d>"))
 edit.add_command(label = 'Copy' , accelerator = 'Ctrl+c', command = lambda:text_editor.event_generate("<Control-c>"))
 edit.add_command(label = 'Paste' , accelerator = 'Ctrl+v', command = lambda:text_editor.event_generate("Control-v"))
 edit.add_command(label = 'Find' , accelerator = 'Ctrl+R', command = find_func)
