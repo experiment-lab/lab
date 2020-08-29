@@ -7,3 +7,5 @@ file manager:
 Notebook:
         This is my first cool project about software. This software is like notepad, with functionality of
         open file, new file, save as, save with accelerators and text manipulation functionality like find text, italic,bolt,underline etc
+        
+        NOTE : ACCELERATOR ARE NOTE WORKING PROPERLY
